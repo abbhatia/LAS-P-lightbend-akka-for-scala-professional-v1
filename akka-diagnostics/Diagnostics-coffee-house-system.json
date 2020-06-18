@@ -1,0 +1,245 @@
+{
+  "start-time" : "2020-06-03T16:55:04.318",
+  "akka-version" : "2.6.3",
+  "akka-diagnostics-version" : "1.1.12",
+  "classpath" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/charsets.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/dnsns.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/jaccess.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/localedata.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/nashorn.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunec.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/zipfs.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jce.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jfxswt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jsse.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/management-agent.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/resources.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/rt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/ant-javafx.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/dt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/javafx-mx.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/jconsole.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/packager.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/sa-jdi.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/tools.jar:/Users/abhatia/workspace/personal/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/classes/:/Users/abhatia/workspace/personal/LAS-P-lightbend-akka-for-scala-professional-v1/common/target/scala-2.13/classes/:/Users/abhatia/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/Users/abhatia/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/Users/abhatia/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/jars/akka-diagnostics_2.13-1.1.12.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/jars/cinnamon-akka_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/jars/cinnamon-common-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/jars/cinnamon-core-java-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/jars/cinnamon-core_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/jars/cinnamon-java-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/jars/cinnamon-jvm-metrics-producer-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/jars/cinnamon-prometheus-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/jars/cinnamon-prometheus-httpserver-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/jars/cinnamon-scala_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar:/Users/abhatia/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.3.jar:/Users/abhatia/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.13/jars/akka-slf4j_2.13-2.6.3.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient/bundles/simpleclient-0.8.0.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient_common/bundles/simpleclient_common-0.8.0.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient_httpserver/bundles/simpleclient_httpserver-0.8.0.jar:/Users/abhatia/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar:/Users/abhatia/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.12.jar:/Users/abhatia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar:/Users/abhatia/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar:/Users/abhatia/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/bundles/scala-parser-combinators_2.13-1.1.2.jar:/Users/abhatia/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.30.jar:/Applications/IntelliJ%20IDEA.app/Contents/lib/idea_rt.jar:/Users/abhatia/Library/Caches/IntelliJIdea2019.3/captureAgent/debugger-agent.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 536870912,
+    "heap-max" : 7635730432,
+    "heap-used" : 38766504,
+    "heap-committed" : 339738624,
+    "os-processors" : 16,
+    "mem-pool-0" : {
+      "name" : "Code Cache",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 9319552,
+      "committed" : 9371648
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 23145472,
+      "committed" : 24379392
+    },
+    "mem-pool-2" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 2933976,
+      "committed" : 3145728
+    },
+    "mem-pool-3" : {
+      "name" : "PS Eden Space",
+      "type" : "Heap memory",
+      "init" : 134742016,
+      "max" : 2819096576,
+      "used" : 33486680,
+      "committed" : 134742016
+    },
+    "mem-pool-4" : {
+      "name" : "PS Survivor Space",
+      "type" : "Heap memory",
+      "init" : 22020096,
+      "max" : 22020096,
+      "used" : 0,
+      "committed" : 22020096
+    },
+    "mem-pool-5" : {
+      "name" : "PS Old Gen",
+      "type" : "Heap memory",
+      "init" : 358088704,
+      "max" : 5726797824,
+      "used" : 5279824,
+      "committed" : 182976512
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "actor" : {
+            "debug" : {
+                "lifecycle" : "on",
+                "unhandled" : "on"
+            }
+        },
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "logging-filter" : "akka.event.slf4j.Slf4jLoggingFilter",
+        "loglevel" : "DEBUG",
+        "version" : "2.6.3"
+    },
+    "awt" : {
+        "toolkit" : "sun.lwawt.macosx.LWCToolkit"
+    },
+    "cinnamon" : {
+        "akka" : {
+            "actors" : {
+                "/user/*" : {
+                    "report-by" : "class"
+                }
+            },
+            "dispatchers" : {
+                "basic-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                },
+                "time-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                }
+            }
+        },
+        "prometheus" : {
+            "exporters" : [
+                "http-server"
+            ],
+            "http-server" : {
+                "host" : "0.0.0.0",
+                "port" : 9001
+            }
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.dir",
+        "user.name",
+        "user.home",
+        "ftp.nonProxyHosts",
+        "http.nonProxyHosts",
+        "socksNonProxyHosts"
+    ],
+    "file" : {
+        "encoding" : {
+            "pkg" : "sun.io"
+        },
+        "separator" : "/"
+    },
+    "ftp" : {},
+    "gopherProxySet" : "false",
+    "http" : {},
+    "intellij" : {
+        "debug" : {
+            "agent" : "true"
+        }
+    },
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.CGraphicsEnvironment",
+            "printerjob" : "sun.lwawt.macosx.CPrinterJob"
+        },
+        "class" : {
+            "path" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/charsets.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/dnsns.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/jaccess.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/localedata.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/nashorn.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunec.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext/zipfs.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jce.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jfxswt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jsse.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/management-agent.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/resources.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/rt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/ant-javafx.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/dt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/javafx-mx.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/jconsole.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/packager.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/sa-jdi.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/lib/tools.jar:/Users/abhatia/workspace/personal/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/classes:/Users/abhatia/workspace/personal/LAS-P-lightbend-akka-for-scala-professional-v1/common/target/scala-2.13/classes:/Users/abhatia/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/Users/abhatia/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/Users/abhatia/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/jars/akka-diagnostics_2.13-1.1.12.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/jars/cinnamon-akka_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/jars/cinnamon-common-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/jars/cinnamon-core-java-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/jars/cinnamon-core_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/jars/cinnamon-java-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/jars/cinnamon-jvm-metrics-producer-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/jars/cinnamon-prometheus-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/jars/cinnamon-prometheus-httpserver-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/jars/cinnamon-scala_2.13-2.13.1.jar:/Users/abhatia/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar:/Users/abhatia/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.3.jar:/Users/abhatia/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.13/jars/akka-slf4j_2.13-2.6.3.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient/bundles/simpleclient-0.8.0.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient_common/bundles/simpleclient_common-0.8.0.jar:/Users/abhatia/.ivy2/cache/io.prometheus/simpleclient_httpserver/bundles/simpleclient_httpserver-0.8.0.jar:/Users/abhatia/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar:/Users/abhatia/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.12.jar:/Users/abhatia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar:/Users/abhatia/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar:/Users/abhatia/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/bundles/scala-parser-combinators_2.13-1.1.2.jar:/Users/abhatia/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.30.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Users/abhatia/Library/Caches/IntelliJIdea2019.3/captureAgent/debugger-agent.jar",
+            "version" : "52.0"
+        },
+        "endorsed" : {
+            "dirs" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/endorsed"
+        },
+        "ext" : {
+            "dirs" : "/Users/abhatia/Library/Java/Extensions:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"
+        },
+        "home" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre",
+        "io" : {
+            "tmpdir" : "/var/folders/z5/f62tt14n5gnfcjl7tdsn4wzxwnrrbb/T/"
+        },
+        "library" : {
+            "path" : "/Users/abhatia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."
+        },
+        "runtime" : {
+            "name" : "OpenJDK Runtime Environment",
+            "version" : "1.8.0_242-b08"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "1.8"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "https://github.com/corretto/corretto-8/issues/"
+            }
+        },
+        "version" : "1.8.0_242",
+        "vm" : {
+            "info" : "mixed mode",
+            "name" : "OpenJDK 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "1.8"
+            },
+            "vendor" : "Amazon.com Inc.",
+            "version" : "25.242-b08"
+        }
+    },
+    "jboss" : {
+        "modules" : {
+            "system" : {
+                "pkgs" : "com.intellij.rt"
+            }
+        }
+    },
+    "line" : {
+        "separator" : "\n"
+    },
+    "os" : {
+        "arch" : "x86_64",
+        "name" : "Mac OS X",
+        "version" : "10.15.2"
+    },
+    "path" : {
+        "separator" : ":"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "class" : {
+                "path" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/resources.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/rt.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/sunrsasign.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jsse.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jce.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/charsets.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib/jfr.jar:/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/classes"
+            },
+            "library" : {
+                "path" : "/Users/abhatia/.jabba/jdk/amazon-corretto@1.8.242-08.1/Contents/Home/jre/lib"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : ""
+        },
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeBig"
+            }
+        },
+        "java" : {
+            "command" : "com.lightbend.training.coffeehouse.CoffeeHouseApp",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "UTF-8"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : "unknown"
+            }
+        }
+    },
+    "user" : {
+        "country" : "CA",
+        "language" : "en",
+        "timezone" : ""
+    }
+}
+}
+
